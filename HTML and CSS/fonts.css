@@ -1,0 +1,19 @@
+p{
+  font-size: 100%;
+  font-style: oblique;
+  font-weight: bolder;
+  font-family: sans-serif;
+  font-variant-position: normal;
+}
+#para{
+  background-color: blue;
+  background-position: center;
+}
+#p1{
+  text-align: justify;
+  text-decoration: underline;
+  text-rendering: optimizeLegibility;
+}
+.p2{
+  color:red;
+}
