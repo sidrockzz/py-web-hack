@@ -1,0 +1,91 @@
+<html>
+ <head>
+  <title>VALIDATION</title>
+ <script type="text/javascript">
+   function validcheck()
+   { 
+    var n1=document.forms[0].user.value;
+    var p1=document.forms[0].pwd.value;
+    var e1=document.forms[0].mail.value;
+    var ph1=document.forms[0].ph.value;
+    
+    var userreg=new RegExp("[a-zA-Z]*$");
+    var emailreg=new RegExp("^([a-zA-Z0-9_\.-])+\@([a-zA-Z])+\.)+([a-zA-Z](2,4)+$");
+    var phreg=new RegExp("^[0-9]{10}$");
+    
+    var ruser=userreg.exec(userv);
+    var remail=emailreg.exec(emailv);
+    var rph=phreg.exec(phv);
+
+    if(ruser&& remail && rph &&(pwdv.length>6))
+    {
+     alert("All values are Valid");
+     return true;
+    }
+    else
+    {
+      if(!(ruser&&userv.length>6))
+      {
+       alert("User name invalid");
+       document.forms[0].user.focus();
+      }	
+      if(!remail)
+      {
+       alert("email id invalid");
+       document.forms[0].email.focus();
+      }
+      if(!rph)
+      {
+       alert("phone number invalid");
+       document.forms[0].ph.focus();
+      }
+      if(pwdv.length<6)
+      {
+        alert("password is invalid");       
+        document.forms[0].pwd.focus();
+      }
+      return false;
+    }
+}
+   </script>
+   <style>
+     pre{font-family:serif,'Times New Roman';}
+   </style>
+  </head>
+
+  <body>
+  <center>
+    <h2>Registration Form</h2>
+    <form action="" method="get" onSubmit="return validcheck();">
+    <pre><strong>
+    
+    <table border="0">
+   <tr>
+      <td>NAME:</td>
+      <td><pre>  </pre></td>
+      <td><input type="text" name="user" size="20"/><br/></td>
+   </tr>
+   <tr>
+      <td>Password:</td>
+      <td></td>
+      <td><input type="password" name="pwd" size="20"/><br/></td>
+   </tr>
+   <tr>
+      <td>Email:</td>
+      <td></td>
+      <td><input type="text" name="mail" size="20"/><br/></td>
+   </tr>
+   <tr>
+    <td>Phone Number</td>
+    <td></td>
+    <td><input type="text" name="phone" size="20"/><br/></td>
+   </tr>
+<tr>
+ <td><input type="submit" name"Register" onclick="validcheck();"/></td>
+ <td> <input type="reset" name="Clear"/></td>
+</tr>
+ </table>
+ </strong></pre>
+</form>
+</body>
+</html>
