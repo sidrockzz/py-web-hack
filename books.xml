@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<!DOCTYPE bookstore [
+   <!ELEMENT bookstore (title,author,ISBN,Publisher,Edition,price)>
+   <!ELEMENT title (#PCDATA)>
+   <!ELEMENT author (#PCDATA)>
+   <!ELEMENT ISBN (#PCDATA)>
+   <!ELEMENT Publisher (#PCDATA)>
+   <!ELEMENT Edition (#PCDATA)>
+   <!ELEMENT price (#PCDATA)>
+]>
+
+<bookstore>
+
+<book category="cooking">
+  <title lang="en">Everyday Italian</title>
+  <author>Giada De Laurentiis</author>
+  <ISBN>321710306001</ISBN>
+  <Publisher>Akash</Publisher>
+  <Edition>2nd</Edition>
+  <price>30.00</price>
+</book>
+
+<book category="children">
+  <title lang="en">Harry Potter</title>
+  <author>J K. Rowling</author>
+  <ISBN>321710306006</ISBN>
+  <Publisher>Avinash</Publisher>
+  <Edition>2nd</Edition>
+  <price>29.99</price>
+</book>
+
+<book category="web">
+  <title lang="en">XQuery Kick Start</title>
+  <author>James McGovern</author>
+  <ISBN>321710306011</ISBN>
+  <Publisher>Siddharth</Publisher>
+  <Edition>3rd</Edition>
+  <price>49.99</price>
+</book>
+
+<book category="web">
+  <title lang="en">Learning XML</title>
+  <author>Erik T. Ray</author>
+  <ISBN>321710306023</ISBN>
+  <Publisher>Manas</Publisher>
+  <Edition>4th</Edition>
+  <price>39.95</price>
+</book>
+
+</bookstore>  
