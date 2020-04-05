@@ -1,3 +1,1 @@
-# py-web-hack
-
-Practice on php, mysql , python and DS of c and c++.
+I am editing the README file. Adding some more details about the project description.
