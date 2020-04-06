@@ -1,0 +1,1451 @@
+execve("./healthcheck.py", ["./healthcheck.py"], 0x7ffd7c264110 /* 58 vars */) = 0
+brk(NULL)                               = 0x56326ac29000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe1c0b1fd0) = -1 EINVAL (Invalid argument)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=67737, ...}) = 0
+mmap(NULL, 67737, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe3cb416000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360r\2\0\0\0\0\0"..., 832) = 832
+lseek(3, 64, SEEK_SET)                  = 64
+read(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784) = 784
+lseek(3, 848, SEEK_SET)                 = 848
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+lseek(3, 880, SEEK_SET)                 = 880
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0q7?\324>\326\250>\n\253\230<:\227\0362"..., 68) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=2025032, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe3cb414000
+lseek(3, 64, SEEK_SET)                  = 64
+read(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784) = 784
+lseek(3, 848, SEEK_SET)                 = 848
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+lseek(3, 880, SEEK_SET)                 = 880
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0q7?\324>\326\250>\n\253\230<:\227\0362"..., 68) = 68
+mmap(NULL, 2032984, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe3cb223000
+mmap(0x7fe3cb248000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7fe3cb248000
+mmap(0x7fe3cb3c0000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19d000) = 0x7fe3cb3c0000
+mmap(0x7fe3cb40a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e6000) = 0x7fe3cb40a000
+mmap(0x7fe3cb410000, 13656, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe3cb410000
+close(3)                                = 0
+arch_prctl(ARCH_SET_FS, 0x7fe3cb415580) = 0
+mprotect(0x7fe3cb40a000, 12288, PROT_READ) = 0
+mprotect(0x563268cf8000, 4096, PROT_READ) = 0
+mprotect(0x7fe3cb453000, 4096, PROT_READ) = 0
+munmap(0x7fe3cb416000, 67737)           = 0
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5698896, ...}) = 0
+mmap(NULL, 5698896, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe3cacb3000
+close(3)                                = 0
+brk(NULL)                               = 0x56326ac29000
+brk(0x56326ac4a000)                     = 0x56326ac4a000
+execve("/home/siddharth/anaconda3/bin/python3", ["python3", "./healthcheck.py"], 0x7ffe1c0b20c8 /* 58 vars */) = 0
+brk(NULL)                               = 0x558d9efbf000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffe44dd7780) = -1 EINVAL (Invalid argument)
+readlink("/proc/self/exe", "/home/siddharth/anaconda3/bin/py"..., 4096) = 39
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/tls/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib/tls/haswell/x86_64", 0x7ffe44dd69d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/tls/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib/tls/haswell", 0x7ffe44dd69d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib/tls/x86_64", 0x7ffe44dd69d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib/tls", 0x7ffe44dd69d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/haswell/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib/haswell/x86_64", 0x7ffe44dd69d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/haswell/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib/haswell", 0x7ffe44dd69d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib/x86_64", 0x7ffe44dd69d0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/../lib", {st_mode=S_IFDIR|0755, st_size=53248, ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=67737, ...}) = 0
+mmap(NULL, 67737, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe7f98db000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\201\0\0\0\0\0\0"..., 832) = 832
+lseek(3, 824, SEEK_SET)                 = 824
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\177A\7\337\204\332b_\33DZ\336\207~\36\n"..., 68) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=158288, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f98d9000
+lseek(3, 824, SEEK_SET)                 = 824
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\177A\7\337\204\332b_\33DZ\336\207~\36\n"..., 68) = 68
+mmap(NULL, 140448, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f98b6000
+mmap(0x7fe7f98bd000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fe7f98bd000
+mmap(0x7fe7f98ce000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7fe7f98ce000
+mmap(0x7fe7f98d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7fe7f98d3000
+mmap(0x7fe7f98d5000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe7f98d5000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360r\2\0\0\0\0\0"..., 832) = 832
+lseek(3, 64, SEEK_SET)                  = 64
+read(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784) = 784
+lseek(3, 848, SEEK_SET)                 = 848
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+lseek(3, 880, SEEK_SET)                 = 880
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0q7?\324>\326\250>\n\253\230<:\227\0362"..., 68) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=2025032, ...}) = 0
+lseek(3, 64, SEEK_SET)                  = 64
+read(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784) = 784
+lseek(3, 848, SEEK_SET)                 = 848
+read(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32) = 32
+lseek(3, 880, SEEK_SET)                 = 880
+read(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0q7?\324>\326\250>\n\253\230<:\227\0362"..., 68) = 68
+mmap(NULL, 2032984, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f96c5000
+mmap(0x7fe7f96ea000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7fe7f96ea000
+mmap(0x7fe7f9862000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19d000) = 0x7fe7f9862000
+mmap(0x7fe7f98ac000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e6000) = 0x7fe7f98ac000
+mmap(0x7fe7f98b2000, 13656, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe7f98b2000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18816, ...}) = 0
+mmap(NULL, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f96bf000
+mmap(0x7fe7f96c0000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fe7f96c0000
+mmap(0x7fe7f96c2000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f96c2000
+mmap(0x7fe7f96c3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f96c3000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14848, ...}) = 0
+mmap(NULL, 16656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f96ba000
+mmap(0x7fe7f96bb000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fe7f96bb000
+mmap(0x7fe7f96bc000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f96bc000
+mmap(0x7fe7f96bd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f96bd000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 7\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=40040, ...}) = 0
+mmap(NULL, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f96af000
+mmap(0x7fe7f96b2000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f96b2000
+mmap(0x7fe7f96b6000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fe7f96b6000
+mmap(0x7fe7f96b8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7fe7f96b8000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/../lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\363\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1369352, ...}) = 0
+mmap(NULL, 1368336, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f9560000
+mmap(0x7fe7f956f000, 684032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7fe7f956f000
+mmap(0x7fe7f9616000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb6000) = 0x7fe7f9616000
+mmap(0x7fe7f96ad000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14c000) = 0x7fe7f96ad000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f955e000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f955b000
+arch_prctl(ARCH_SET_FS, 0x7fe7f955b740) = 0
+mprotect(0x7fe7f98ac000, 12288, PROT_READ) = 0
+mprotect(0x7fe7f96ad000, 4096, PROT_READ) = 0
+mprotect(0x7fe7f98d3000, 4096, PROT_READ) = 0
+mprotect(0x7fe7f96b8000, 4096, PROT_READ) = 0
+mprotect(0x7fe7f96bd000, 4096, PROT_READ) = 0
+mprotect(0x7fe7f96c3000, 4096, PROT_READ) = 0
+mprotect(0x558d9e41e000, 12288, PROT_READ) = 0
+mprotect(0x7fe7f9918000, 4096, PROT_READ) = 0
+munmap(0x7fe7f98db000, 67737)           = 0
+set_tid_address(0x7fe7f955ba10)         = 3028
+set_robust_list(0x7fe7f955ba20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fe7f98bdc50, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fe7f98cb540}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fe7f98bdcf0, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fe7f98cb540}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x558d9efbf000
+brk(0x558d9efe0000)                     = 0x558d9efe0000
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5698896, ...}) = 0
+mmap(NULL, 5698896, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe7f8feb000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=27002, ...}) = 0
+mmap(NULL, 27002, PROT_READ, MAP_SHARED, 3, 0) = 0x7fe7f98e5000
+close(3)                                = 0
+futex(0x7fe7f98b1634, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/home/siddharth/anaconda3/bin/python3", {st_mode=S_IFREG|0775, st_size=12415096, ...}) = 0
+readlink("/home/siddharth/anaconda3/bin/python3", "python3.7", 4096) = 9
+readlink("/home/siddharth/anaconda3/bin/python3.7", 0x7ffe44dc4fe0, 4096) = -1 EINVAL (Invalid argument)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/Modules/Setup", 0x7ffe44dcb080) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/lib/python3.7/os.py", 0x7ffe44dc5f70) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/lib/python3.7/os.pyc", 0x7ffe44dc5f70) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/os.py", {st_mode=S_IFREG|0664, st_size=37787, ...}) = 0
+stat("/home/siddharth/anaconda3/bin/pybuilddir.txt", 0x7ffe44dc6060) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/bin/lib/python3.7/lib-dynload", 0x7ffe44dc6060) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+read(3, "#.\317\301e\246:\211;\313/K\376\224 \241\242\244\346\230\206<\2263", 24) = 24
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8fab000
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8f6b000
+brk(0x558d9f004000)                     = 0x558d9f004000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8f2b000
+sysinfo({uptime=185848, loads=[83712, 77856, 69408], totalram=8228573184, freeram=413544448, sharedram=536109056, bufferram=137465856, totalswap=2147479552, freeswap=1267486720, procs=1240, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+brk(0x558d9f027000)                     = 0x558d9f027000
+sigaltstack({ss_sp=0x558d9efde3b0, ss_flags=0, ss_size=16384}, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+stat("/home/siddharth/anaconda3/lib/python37.zip", 0x7ffe44dd5e90) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib", {st_mode=S_IFDIR|0755, st_size=53248, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python37.zip", 0x7ffe44dd57c0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+getdents64(3, /* 213 entries */, 32768) = 7264
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd5aa0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/__init__.abi3.so", 0x7ffe44dd5aa0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/__init__.so", 0x7ffe44dd5aa0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5668, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8eeb000
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/__init__.py", {st_mode=S_IFREG|0664, st_size=5668, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/encodings/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3924, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3924, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0226\26^$\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 3925) = 3924
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/codecs.py", {st_mode=S_IFREG|0664, st_size=36538, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/codecs.py", {st_mode=S_IFREG|0664, st_size=36538, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/codecs.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=34052, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=34052, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\272\216\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0,\0\0"..., 34053) = 34052
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/encodings", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents64(3, /* 128 entries */, 32768) = 4336
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/aliases.py", {st_mode=S_IFREG|0664, st_size=15577, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/encodings/__pycache__/aliases.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=6273, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6273, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0216\26^\331<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0D\1\0"..., 6274) = 6273
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/utf_8.py", {st_mode=S_IFREG|0664, st_size=1005, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/encodings/__pycache__/utf_8.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=1591, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1591, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0226\26^\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1592) = 1591
+read(3, "", 1)                          = 0
+close(3)                                = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe7f98cb540}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe7f98cb540}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+getpid()                                = 3028
+rt_sigaction(SIGHUP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGABRT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGFPE, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGKILL, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe7f98cb540}, 8) = 0
+rt_sigaction(SIGALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGCONT, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSTOP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTSTP, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTIN, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGTTOU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGURG, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe7f98cb540}, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPROF, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGIO, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGPWR, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSYS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x558d9e328530, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe7f98cb540}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/encodings/latin_1.py", {st_mode=S_IFREG|0664, st_size=1264, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/encodings/__pycache__/latin_1.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=1873, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=1873, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0226\26^\360\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 1874) = 1873
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/io.py", {st_mode=S_IFREG|0664, st_size=3517, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/io.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3386, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3386, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\275\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0"..., 3387) = 3386
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/abc.py", {st_mode=S_IFREG|0664, st_size=5580, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/abc.py", {st_mode=S_IFREG|0664, st_size=5580, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/abc.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=6428, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6428, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\314\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 6429) = 6428
+read(3, "", 1)                          = 0
+close(3)                                = 0
+dup(0)                                  = 3
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(0, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(1)                                  = 3
+close(3)                                = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(1, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+dup(2)                                  = 3
+close(3)                                = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0x1), ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+lseek(2, 0, SEEK_CUR)                   = -1 ESPIPE (Illegal seek)
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site.py", {st_mode=S_IFREG|0664, st_size=21307, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site.py", {st_mode=S_IFREG|0664, st_size=21307, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/site.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=16527, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=16527, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^;S\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 16528) = 16527
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x558d9f048000)                     = 0x558d9f048000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8eab000
+munmap(0x7fe7f8eab000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8eab000
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/os.py", {st_mode=S_IFREG|0664, st_size=37787, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/os.py", {st_mode=S_IFREG|0664, st_size=37787, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/os.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=29701, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=29701, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\233\223\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\23\0\0"..., 29702) = 29701
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/stat.py", {st_mode=S_IFREG|0664, st_size=5391, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/stat.py", {st_mode=S_IFREG|0664, st_size=5391, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/stat.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=4321, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=4321, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\17\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0"..., 4322) = 4321
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/posixpath.py", {st_mode=S_IFREG|0664, st_size=15771, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/posixpath.py", {st_mode=S_IFREG|0664, st_size=15771, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/posixpath.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=10406, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=10406, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\233=\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0&\0\0"..., 10407) = 10406
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/genericpath.py", {st_mode=S_IFREG|0664, st_size=4912, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/genericpath.py", {st_mode=S_IFREG|0664, st_size=4912, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/genericpath.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3881, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3881, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^0\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 3882) = 3881
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26424, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_collections_abc.py", {st_mode=S_IFREG|0664, st_size=26424, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/_collections_abc.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=28919, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=28919, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^8g\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0"..., 28920) = 28919
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8e86000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8e46000
+munmap(0x7fe7f8e46000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8e46000
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_sitebuiltins.py", {st_mode=S_IFREG|0664, st_size=3115, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/_sitebuiltins.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3442, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3442, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^+\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3443) = 3442
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/bin/pyvenv.cfg", 0x7ffe44dd59e0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/pyvenv.cfg", 0x7ffe44dd59e0) = -1 ENOENT (No such file or directory)
+geteuid()                               = 1000
+getuid()                                = 1000
+getegid()                               = 1000
+getgid()                                = 1000
+stat("/home/siddharth/.local/lib/python3.7/site-packages", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/.local/lib/python3.7/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+getdents64(3, /* 91 entries */, 32768)  = 3744
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+getdents64(3, /* 509 entries */, 32768) = 21528
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/matplotlib-3.1.3-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=569, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1801, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_bootlocale.py", {st_mode=S_IFREG|0664, st_size=1801, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/_bootlocale.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=1226, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=1226, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\t\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 1227) = 1226
+read(4, "", 1)                          = 0
+close(4)                                = 0
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 569
+brk(0x558d9f06b000)                     = 0x558d9f06b000
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/types.py", {st_mode=S_IFREG|0664, st_size=9897, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/types.py", {st_mode=S_IFREG|0664, st_size=9897, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/types.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=8953, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=8953, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\251&\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 8954) = 8953
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd3970) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/__init__.abi3.so", 0x7ffe44dd3970) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/__init__.so", 0x7ffe44dd3970) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/__init__.py", {st_mode=S_IFREG|0664, st_size=6037, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/__init__.py", {st_mode=S_IFREG|0664, st_size=6037, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/importlib/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=3709, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=3709, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0216\26^\225\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 3710) = 3709
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/warnings.py", {st_mode=S_IFREG|0664, st_size=20242, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/warnings.py", {st_mode=S_IFREG|0664, st_size=20242, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/warnings.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=13917, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=13917, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\22O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 13918) = 13917
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/importlib", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(4, /* 10 entries */, 32768)  = 328
+getdents64(4, /* 0 entries */, 32768)   = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/util.py", {st_mode=S_IFREG|0664, st_size=11319, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/util.py", {st_mode=S_IFREG|0664, st_size=11319, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/importlib/__pycache__/util.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=9333, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=9333, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0216\26^7,\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 9334) = 9333
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/abc.py", {st_mode=S_IFREG|0664, st_size=12873, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/abc.py", {st_mode=S_IFREG|0664, st_size=12873, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/importlib/__pycache__/abc.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=13464, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=13464, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0216\26^I2\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\n\0\0"..., 13465) = 13464
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/machinery.py", {st_mode=S_IFREG|0664, st_size=844, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/importlib/machinery.py", {st_mode=S_IFREG|0664, st_size=844, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/importlib/__pycache__/machinery.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=949, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=949, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0216\26^L\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 950) = 949
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/contextlib.py", {st_mode=S_IFREG|0664, st_size=24762, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/contextlib.py", {st_mode=S_IFREG|0664, st_size=24762, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/contextlib.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=20435, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=20435, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\272`\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0"..., 20436) = 20435
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8e06000
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/collections/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd25b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/collections/__init__.abi3.so", 0x7ffe44dd25b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/collections/__init__.so", 0x7ffe44dd25b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=48380, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/collections/__init__.py", {st_mode=S_IFREG|0664, st_size=48380, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/collections/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=47069, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=47069, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0216\26^\374\274\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0"..., 47070) = 47069
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/operator.py", {st_mode=S_IFREG|0664, st_size=10863, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/operator.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=13877, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=13877, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^o*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0006\0\0"..., 13878) = 13877
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/keyword.py", {st_mode=S_IFREG|0775, st_size=2245, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/keyword.py", {st_mode=S_IFREG|0775, st_size=2245, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/keyword.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=1786, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=1786, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\305\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0"..., 1787) = 1786
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/heapq.py", {st_mode=S_IFREG|0664, st_size=23017, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/heapq.py", {st_mode=S_IFREG|0664, st_size=23017, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/heapq.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=14339, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=14339, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\351Y\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 14340) = 14339
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+getdents64(4, /* 70 entries */, 32768)  = 4376
+getdents64(4, /* 0 entries */, 32768)   = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_heapq.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=65448, ...}) = 0
+futex(0x7fe7f96c40c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_heapq.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\20\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0775, st_size=65448, ...}) = 0
+mmap(NULL, 27960, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe7f98de000
+mmap(0x7fe7f98df000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1000) = 0x7fe7f98df000
+mmap(0x7fe7f98e1000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7fe7f98e1000
+mmap(0x7fe7f98e2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7fe7f98e2000
+close(4)                                = 0
+mprotect(0x7fe7f98e2000, 4096, PROT_READ) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8dc6000
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/reprlib.py", {st_mode=S_IFREG|0664, st_size=5267, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/reprlib.py", {st_mode=S_IFREG|0664, st_size=5267, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/reprlib.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=5327, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=5327, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\223\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 5328) = 5327
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/functools.py", {st_mode=S_IFREG|0664, st_size=32932, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/functools.py", {st_mode=S_IFREG|0664, st_size=32932, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/functools.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0664, st_size=24208, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0664, st_size=24208, ...}) = 0
+read(4, "B\r\r\n\0\0\0\0\0166\26^\244\200\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 24209) = 24208
+read(4, "", 1)                          = 0
+close(4)                                = 0
+brk(0x558d9f08e000)                     = 0x558d9f08e000
+brk(0x558d9f085000)                     = 0x558d9f085000
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+getdents64(4, /* 509 entries */, 32768) = 21528
+getdents64(4, /* 0 entries */, 32768)   = 0
+close(4)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.py", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/mpl_toolkits/__init__.pyc", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/mpl_toolkits", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/setuptools.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=54, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "/home/siddharth/anaconda3/lib/py"..., 8192) = 54
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib_applehelp-1.0.2-py3.8-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib_devhelp-1.0.2-py3.8-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib_htmlhelp-1.0.3-py3.8-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib_jsmath-1.0.1-py3.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib_qthelp-1.0.3-py3.8-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib_serializinghtml-1.1.4-py3.8-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib_websupport-1.2.0-py3.6-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=574, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5660)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffe44dd55f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 574
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.abi3.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.so", 0x7ffe44dd49b0) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/sphinxcontrib/__init__.py", {st_mode=S_IFREG|0664, st_size=275, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/.local/lib/python3.7/site-packages", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/siddharth/.local/lib/python3.7/site-packages", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/siddharth/.local/lib/python3.7/site-packages", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/.local/lib/python3.7/site-packages", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+getdents64(3, /* 91 entries */, 32768)  = 3744
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/.local/lib/python3.7/site-packages", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("./healthcheck.py", {st_mode=S_IFREG|0755, st_size=357, ...}) = 0
+openat(AT_FDCWD, "./healthcheck.py", O_RDONLY) = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0755, st_size=357, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0755, st_size=357, ...}) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "#!/usr/bin/env python3\nimport sh"..., 335) = 335
+read(3, "t(\"Everything is OK\")\n", 4096) = 22
+close(3)                                = 0
+stat("./healthcheck.py", {st_mode=S_IFREG|0755, st_size=357, ...}) = 0
+readlink("./healthcheck.py", 0x7ffe44dc61e0, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/siddharth/py-web-hack", 4096) = 28
+lstat("/home/siddharth/py-web-hack/healthcheck.py", {st_mode=S_IFREG|0755, st_size=357, ...}) = 0
+openat(AT_FDCWD, "./healthcheck.py", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fstat(3, {st_mode=S_IFREG|0755, st_size=357, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd7500)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0755, st_size=357, ...}) = 0
+read(3, "#!/usr/bin/env python3\nimport sh"..., 4096) = 357
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "#!/usr/bin/env python3\nimport sh"..., 4096) = 357
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/py-web-hack", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, /* 49 entries */, 32768)  = 1712
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/shutil.py", {st_mode=S_IFREG|0664, st_size=41950, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/shutil.py", {st_mode=S_IFREG|0664, st_size=41950, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/shutil.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=30957, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=30957, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\336\243\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0"..., 30958) = 30957
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/fnmatch.py", {st_mode=S_IFREG|0664, st_size=4056, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/fnmatch.py", {st_mode=S_IFREG|0664, st_size=4056, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/fnmatch.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3314, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3314, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\330\17\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3315) = 3314
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/re.py", {st_mode=S_IFREG|0664, st_size=15192, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/re.py", {st_mode=S_IFREG|0664, st_size=15192, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/re.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=13781, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=13781, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^X;\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\35\0\0"..., 13782) = 13781
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8d86000
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/enum.py", {st_mode=S_IFREG|0664, st_size=34777, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/enum.py", {st_mode=S_IFREG|0664, st_size=34777, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/enum.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=24247, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=24247, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\331\207\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 24248) = 24247
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/sre_compile.py", {st_mode=S_IFREG|0664, st_size=26872, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/sre_compile.py", {st_mode=S_IFREG|0664, st_size=26872, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/sre_compile.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=15180, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=15180, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\370h\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 15181) = 15180
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/sre_parse.py", {st_mode=S_IFREG|0664, st_size=39156, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/sre_parse.py", {st_mode=S_IFREG|0664, st_size=39156, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/sre_parse.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=21263, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=21263, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\364\230\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 21264) = 21263
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/sre_constants.py", {st_mode=S_IFREG|0664, st_size=7177, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/sre_constants.py", {st_mode=S_IFREG|0664, st_size=7177, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/sre_constants.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=6268, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=6268, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\t\34\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0"..., 6269) = 6268
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x558d9f0a6000)                     = 0x558d9f0a6000
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/copyreg.py", {st_mode=S_IFREG|0664, st_size=7017, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/copyreg.py", {st_mode=S_IFREG|0664, st_size=7017, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/copyreg.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=4221, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=4221, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^i\33\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 4222) = 4221
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8d46000
+munmap(0x7fe7f8d46000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8d46000
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/zlib.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=120664, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/zlib.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@ \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=120664, ...}) = 0
+mmap(NULL, 43256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8d3b000
+mprotect(0x7fe7f8d3d000, 24576, PROT_NONE) = 0
+mmap(0x7fe7f8d3d000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f8d3d000
+mmap(0x7fe7f8d41000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fe7f8d41000
+mmap(0x7fe7f8d43000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fe7f8d43000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls/haswell/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls/haswell/x86_64", 0x7ffe44dd44e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls/haswell/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls/haswell", 0x7ffe44dd44e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls/x86_64", 0x7ffe44dd44e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../tls", 0x7ffe44dd44e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../haswell/x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../haswell/x86_64", 0x7ffe44dd44e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../haswell/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../haswell", 0x7ffe44dd44e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../x86_64/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../x86_64", 0x7ffe44dd44e0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=133384, ...}) = 0
+mmap(NULL, 127000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8d1b000
+mmap(0x7fe7f8d1e000, 81920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8d1e000
+mmap(0x7fe7f8d32000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fe7f8d32000
+mmap(0x7fe7f8d39000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fe7f8d39000
+close(3)                                = 0
+mprotect(0x7fe7f8d39000, 4096, PROT_READ) = 0
+mprotect(0x7fe7f8d43000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/bz2.py", {st_mode=S_IFREG|0664, st_size=12410, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/bz2.py", {st_mode=S_IFREG|0664, st_size=12410, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/bz2.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=11158, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=11158, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^z0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 11159) = 11158
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_compression.py", {st_mode=S_IFREG|0664, st_size=5340, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_compression.py", {st_mode=S_IFREG|0664, st_size=5340, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/_compression.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=4101, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=4101, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\334\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 4102) = 4101
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/threading.py", {st_mode=S_IFREG|0664, st_size=49049, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/threading.py", {st_mode=S_IFREG|0664, st_size=49049, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/threading.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=37863, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=37863, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\231\277\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\25\0\0"..., 37864) = 37863
+read(3, "", 1)                          = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=303, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=303, ...}) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 303
+lseek(3, -179, SEEK_CUR)                = 124
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 179
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/traceback.py", {st_mode=S_IFREG|0664, st_size=23438, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/traceback.py", {st_mode=S_IFREG|0664, st_size=23438, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/traceback.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=19600, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=19600, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\216[\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\23\0\0"..., 19601) = 19600
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/linecache.py", {st_mode=S_IFREG|0664, st_size=5312, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/linecache.py", {st_mode=S_IFREG|0664, st_size=5312, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/linecache.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3766, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3766, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\300\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 3767) = 3766
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/tokenize.py", {st_mode=S_IFREG|0664, st_size=27031, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/tokenize.py", {st_mode=S_IFREG|0664, st_size=27031, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/tokenize.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=17808, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=17808, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\227i\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0/\0\0"..., 17809) = 17808
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/token.py", {st_mode=S_IFREG|0664, st_size=3763, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/token.py", {st_mode=S_IFREG|0664, st_size=3763, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/token.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3576, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3576, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\263\16\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3577) = 3576
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8cdb000
+brk(0x558d9f0c7000)                     = 0x558d9f0c7000
+brk(0x558d9f0bf000)                     = 0x558d9f0bf000
+brk(0x558d9f0bd000)                     = 0x558d9f0bd000
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_weakrefset.py", {st_mode=S_IFREG|0664, st_size=5679, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/_weakrefset.py", {st_mode=S_IFREG|0664, st_size=5679, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/_weakrefset.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=7439, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=7439, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^/\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 7440) = 7439
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_bz2.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=143384, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_bz2.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=143384, ...}) = 0
+mmap(NULL, 96528, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8cc3000
+mprotect(0x7fe7f8cc6000, 73728, PROT_NONE) = 0
+mmap(0x7fe7f8cc6000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8cc6000
+mmap(0x7fe7f8cd5000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7fe7f8cd5000
+mmap(0x7fe7f8cd8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7fe7f8cd8000
+close(3)                                = 0
+mprotect(0x7fe7f8cd8000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lzma.py", {st_mode=S_IFREG|0664, st_size=12983, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lzma.py", {st_mode=S_IFREG|0664, st_size=12983, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/lzma.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=11916, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=11916, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\2672\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0$\0\0"..., 11917) = 11916
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_lzma.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=122056, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_lzma.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=122056, ...}) = 0
+mmap(NULL, 47472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8cb7000
+mmap(0x7fe7f8cba000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8cba000
+mmap(0x7fe7f8cbe000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7fe7f8cbe000
+mmap(0x7fe7f8cc0000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7fe7f8cc0000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/../../liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=173408, ...}) = 0
+mmap(NULL, 2248728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8a91000
+mprotect(0x7fe7f8ab6000, 2093056, PROT_NONE) = 0
+mmap(0x7fe7f8cb5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7fe7f8cb5000
+close(3)                                = 0
+mprotect(0x7fe7f8cb5000, 4096, PROT_READ) = 0
+mprotect(0x7fe7f8cc0000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/grp.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=44168, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/grp.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@ \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=44168, ...}) = 0
+mmap(NULL, 22800, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8a8b000
+mmap(0x7fe7f8a8d000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f8a8d000
+mmap(0x7fe7f8a8e000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8a8e000
+mmap(0x7fe7f8a8f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8a8f000
+close(3)                                = 0
+mprotect(0x7fe7f8a8f000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/.local/lib/python3.7/site-packages", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages", {st_mode=S_IFDIR|0755, st_size=32768, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__init__.cpython-37m-x86_64-linux-gnu.so", 0x7ffe44dd5e40) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__init__.abi3.so", 0x7ffe44dd5e40) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__init__.so", 0x7ffe44dd5e40) = -1 ENOENT (No such file or directory)
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__init__.py", {st_mode=S_IFREG|0664, st_size=87126, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__init__.py", {st_mode=S_IFREG|0664, st_size=87126, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__pycache__/__init__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=63798, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=63798, ...}) = 0
+brk(0x558d9f0de000)                     = 0x558d9f0de000
+read(3, "B\r\r\n\0\0\0\0y\200j^VT\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0G\0\0"..., 63799) = 63798
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8a4b000
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/__future__.py", {st_mode=S_IFREG|0664, st_size=5101, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/__future__.py", {st_mode=S_IFREG|0664, st_size=5101, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/__future__.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=4109, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=4109, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\355\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\n\0\0"..., 4110) = 4109
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/datetime.py", {st_mode=S_IFREG|0664, st_size=86544, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/datetime.py", {st_mode=S_IFREG|0664, st_size=86544, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/datetime.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=57204, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=57204, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\20R\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0"..., 57205) = 57204
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/math.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=165040, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/math.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=165040, ...}) = 0
+mmap(NULL, 56520, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8a3d000
+mmap(0x7fe7f8a40000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8a40000
+mmap(0x7fe7f8a46000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7fe7f8a46000
+mmap(0x7fe7f8a48000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fe7f8a48000
+close(3)                                = 0
+mprotect(0x7fe7f8a48000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_datetime.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=504376, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_datetime.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@P\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=504376, ...}) = 0
+mmap(NULL, 122576, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8a1f000
+mmap(0x7fe7f8a24000, 65536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fe7f8a24000
+mmap(0x7fe7f8a34000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fe7f8a34000
+mmap(0x7fe7f8a3a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7fe7f8a3a000
+close(3)                                = 0
+mprotect(0x7fe7f8a3a000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/signal.py", {st_mode=S_IFREG|0664, st_size=2123, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/signal.py", {st_mode=S_IFREG|0664, st_size=2123, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/signal.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=2489, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=2489, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^K\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 2490) = 2489
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f89df000
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/subprocess.py", {st_mode=S_IFREG|0664, st_size=71675, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/subprocess.py", {st_mode=S_IFREG|0664, st_size=71675, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/subprocess.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=39166, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=39166, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\373\27\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\25\0\0"..., 39167) = 39166
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 299008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8996000
+munmap(0x7fe7f8e86000, 151552)          = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_posixsubprocess.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=61688, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_posixsubprocess.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@ \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=61688, ...}) = 0
+mmap(NULL, 25752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8ea4000
+mmap(0x7fe7f8ea6000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f8ea6000
+mmap(0x7fe7f8ea8000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fe7f8ea8000
+mmap(0x7fe7f8ea9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fe7f8ea9000
+close(3)                                = 0
+mprotect(0x7fe7f8ea9000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/select.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=111608, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/select.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@ \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=111608, ...}) = 0
+mmap(NULL, 38112, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8e9a000
+mmap(0x7fe7f8e9c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f8e9c000
+mmap(0x7fe7f8ea0000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fe7f8ea0000
+mmap(0x7fe7f8ea1000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fe7f8ea1000
+close(3)                                = 0
+mprotect(0x7fe7f8ea1000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/selectors.py", {st_mode=S_IFREG|0664, st_size=18561, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/selectors.py", {st_mode=S_IFREG|0664, st_size=18561, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/selectors.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=16925, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=16925, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\201H\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 16926) = 16925
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/collections", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/collections", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, /* 5 entries */, 32768)   = 144
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/collections/abc.py", {st_mode=S_IFREG|0664, st_size=68, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/collections/abc.py", {st_mode=S_IFREG|0664, st_size=68, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/collections/__pycache__/abc.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=182, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=182, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0216\26^D\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 183) = 182
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(3, /* 16 entries */, 32768)  = 584
+getdents64(3, /* 0 entries */, 32768)   = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_common.py", {st_mode=S_IFREG|0664, st_size=26001, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_common.py", {st_mode=S_IFREG|0664, st_size=26001, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__pycache__/_common.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=20617, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=20617, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0y\200j^\221e\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0N\0\0"..., 20618) = 20617
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/socket.py", {st_mode=S_IFREG|0664, st_size=27469, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/socket.py", {st_mode=S_IFREG|0664, st_size=27469, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/socket.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=22014, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=22014, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^Mk\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 22015) = 22014
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_socket.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=399856, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_socket.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@P\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=399856, ...}) = 0
+mmap(NULL, 122584, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8978000
+mmap(0x7fe7f897d000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fe7f897d000
+mmap(0x7fe7f898b000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7fe7f898b000
+mmap(0x7fe7f8990000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fe7f8990000
+close(3)                                = 0
+mprotect(0x7fe7f8990000, 4096, PROT_READ) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f8938000
+brk(0x558d9f0ff000)                     = 0x558d9f0ff000
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_compat.py", {st_mode=S_IFREG|0664, st_size=11607, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_compat.py", {st_mode=S_IFREG|0664, st_size=11607, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__pycache__/_compat.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=9987, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=9987, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0y\200j^W-\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0"..., 9988) = 9987
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_pslinux.py", {st_mode=S_IFREG|0664, st_size=79806, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_pslinux.py", {st_mode=S_IFREG|0664, st_size=79806, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__pycache__/_pslinux.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=47876, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=47876, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0y\200j^\2767\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0"..., 47877) = 47876
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/base64.py", {st_mode=S_IFREG|0775, st_size=20380, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/base64.py", {st_mode=S_IFREG|0775, st_size=20380, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/base64.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=16965, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=16965, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\234O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0"..., 16966) = 16965
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/struct.py", {st_mode=S_IFREG|0664, st_size=257, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/struct.py", {st_mode=S_IFREG|0664, st_size=257, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/struct.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=311, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=311, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\1\1\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 312) = 311
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_struct.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=190192, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/_struct.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=190192, ...}) = 0
+mmap(NULL, 56848, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8e8c000
+mprotect(0x7fe7f8e8f000, 32768, PROT_NONE) = 0
+mmap(0x7fe7f8e8f000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8e8f000
+mmap(0x7fe7f8e94000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7fe7f8e94000
+mmap(0x7fe7f8e97000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fe7f8e97000
+close(3)                                = 0
+mprotect(0x7fe7f8e97000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/lib-dynload/binascii.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=99256, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/lib-dynload/binascii.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@ \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=99256, ...}) = 0
+mmap(NULL, 35744, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f892f000
+mmap(0x7fe7f8931000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f8931000
+mmap(0x7fe7f8934000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fe7f8934000
+mmap(0x7fe7f8936000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fe7f8936000
+close(3)                                = 0
+mprotect(0x7fe7f8936000, 4096, PROT_READ) = 0
+stat("/home/siddharth/py-web-hack", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/glob.py", {st_mode=S_IFREG|0664, st_size=5638, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/glob.py", {st_mode=S_IFREG|0664, st_size=5638, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/__pycache__/glob.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=4236, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=4236, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0\0166\26^\6\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 4237) = 4236
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_psposix.py", {st_mode=S_IFREG|0664, st_size=6047, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_psposix.py", {st_mode=S_IFREG|0664, st_size=6047, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/__pycache__/_psposix.cpython-37.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=3684, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=3684, ...}) = 0
+read(3, "B\r\r\n\0\0\0\0y\200j^\237\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3685) = 3684
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_psutil_linux.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=33048, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_psutil_linux.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=33048, ...}) = 0
+mmap(NULL, 29496, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8927000
+mmap(0x7fe7f892a000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f892a000
+mmap(0x7fe7f892c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fe7f892c000
+mmap(0x7fe7f892d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7fe7f892d000
+close(3)                                = 0
+mprotect(0x7fe7f892d000, 4096, PROT_READ) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_psutil_posix.cpython-37m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0775, st_size=22624, ...}) = 0
+openat(AT_FDCWD, "/home/siddharth/anaconda3/lib/python3.7/site-packages/psutil/_psutil_posix.cpython-37m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@ \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0775, st_size=22624, ...}) = 0
+mmap(NULL, 20856, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe7f8e86000
+mmap(0x7fe7f8e88000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe7f8e88000
+mmap(0x7fe7f8e89000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8e89000
+mmap(0x7fe7f8e8a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fe7f8e8a000
+close(3)                                = 0
+mprotect(0x7fe7f8e8a000, 4096, PROT_READ) = 0
+getpid()                                = 3028
+stat("/proc/3028/smaps", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+brk(0x558d9f125000)                     = 0x558d9f125000
+openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd44e0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "cpu  5142655 11774 1580853 16131"..., 1024) = 1024
+close(3)                                = 0
+stat("/sys/devices/system/cpu/cpufreq/policy0", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+getpid()                                = 3028
+stat("/proc/3028/io", {st_mode=S_IFREG|0400, st_size=0, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe7f88e7000
+openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5b90)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "cpu  5142655 11774 1580853 16131"..., 1024) = 1024
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd5a90)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "cpu  5142655 11774 1580853 16131"..., 1024) = 1024
+read(3, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 1024) = 1024
+read(3, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 1024) = 1024
+read(3, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 1024) = 1024
+read(3, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 1024) = 708
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+statfs("/", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=25671918, f_bfree=18751597, f_bavail=17436781, f_files=6553600, f_ffree=5970761, f_fsid={val=[1538421780, 1385825643]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd65a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "cpu  5142655 11774 1580853 16131"..., 1024) = 1024
+close(3)                                = 0
+select(0, NULL, NULL, NULL, {tv_sec=1, tv_usec=0}) = 0 (Timeout)
+openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7ffe44dd65a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "cpu  5142712 11774 1580862 16132"..., 1024) = 1024
+close(3)                                = 0
+write(1, "Everything is OK\n", 17)      = 17
+rt_sigaction(SIGINT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe7f98cb540}, {sa_handler=0x558d9e328530, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7fe7f98cb540}, 8) = 0
+sigaltstack(NULL, {ss_sp=0x558d9efde3b0, ss_flags=0, ss_size=16384}) = 0
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
