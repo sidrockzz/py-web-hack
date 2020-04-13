@@ -5,7 +5,7 @@ import operator
 
 error_messages = {}
 per_user = {}
-logfile =r"/home/student-03-c1bdb9d32e5c/syslog.log"
+logfile =r"/home/student-03-e7feaf88a5bb/syslog.log"
 pattern = r"(INFO|ERROR) ([\w' ]+|[\w\[\]#' ]+) (\(\w+\)|\(\w+\.\w+\))$"
 
 with open(logfile, "r") as f:
