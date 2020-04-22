@@ -18,4 +18,4 @@ def index():
   session["notes"].append(note)
  
 
- return render_template("index.html",notes=notes)
+ return render_template("index.html",notes=session["notes"])
