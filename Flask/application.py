@@ -6,5 +6,8 @@ app = Flask(__name__)
 #route is part of url where we want to go.Under the route if we write any function we it will execute that function
 @app.route("/")
 def index():
- names = ["Alice", "Bob", "Charlie"]
- return render_template("index.html",names = names)
+ return render_template("index.html")
+
+@app.route("/more")
+def more():
+ return render_template("more.html")
