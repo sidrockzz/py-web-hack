@@ -4,5 +4,6 @@ app = Flask(__name__)
 #route is part of url where we want to go.Under the route if we write any function we it will execute that function
 @app.route("/")
 def index():
-#renders the html page from the template
- return render_template("index.html")
+#renders the html page from the template and passing headline as the parameter
+ headline = "Hello, World!"
+ return render_template("index.html", headline=headline)
